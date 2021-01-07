@@ -1,4 +1,5 @@
 import { all } from 'redux-saga/effects';
+import languageReducer from './language.feature';
 
 /**
  * The way redux store is structured here is by using the ducks pattern (all Redux logic for a feature in a single file), reade more about it in redux style guide
@@ -9,4 +10,6 @@ export function* rootSaga() {
   yield all([]);
 }
 
-export const rootReducer = {};
+export const rootReducer = {
+  language: languageReducer,
+};
