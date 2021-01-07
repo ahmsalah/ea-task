@@ -19,6 +19,14 @@ export default {
     },
     root: {
       fontWeight: 'bold',
+      '& .MuiButton-startIcon': {
+        marginInlineStart: '-4px',
+        marginInlineEnd: '8px',
+      },
+      '& .MuiButton-endIcon': {
+        marginInlineStart: '8px',
+        marginInlineEnd: '-4px',
+      },
     },
     contained: {
       backgroundColor: palette.background.light,
