@@ -1,6 +1,26 @@
-# Getting Started with Create React App
+# EA Task
+## Packages used
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- `@material-ui/core`
+- `@material-ui/icons`
+- `@material-ui/lab`
+- `@reduxjs/toolkit`
+- `@sentry/react`
+- `axios`
+- `notistack`
+- `prop-types`
+- `react-redux`
+- `react-router-dom`
+- `redux`
+- `redux-saga`
+
+---
+
+### Redux Store Structure
+The way redux store is structured here is by using the ducks pattern (all Redux logic for a feature in a single file), reade more about it in [redux style guide] (https://redux.js.org/style-guide/style-guide#structure-files-as-feature-folders-or-ducks)
+
+---
+
 
 ## Available Scripts
 
