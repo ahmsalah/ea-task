@@ -7,6 +7,7 @@ import NoConnection from 'utils/NoConnection';
 import { Provider } from 'react-redux';
 import store from 'redux/store';
 import ErrorBoundary from 'utils/ErrorBoundary';
+import Routes from 'routes';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <CssBaseline />
           <NoConnection />
           <ErrorBoundary>
-            <h1>init</h1>
+            <Routes />
           </ErrorBoundary>
         </Snackbar>
       </ThemeProvider>
