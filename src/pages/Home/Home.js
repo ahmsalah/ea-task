@@ -1,14 +1,13 @@
 import React from 'react';
-import Box from '@material-ui/core/Box';
-import LanguageButton from 'components/LanguageButton/LanguageButton';
-import useStyles from './styles';
+import Layout from 'components/Layout/Layout';
+// import useStyles from './styles';
 
 function Home() {
-  const classes = useStyles();
+  // const classes = useStyles();
   return (
-    <Box className={classes.root}>
-      <LanguageButton />
-    </Box>
+    <Layout display="flex" flexDirection="column" justifyContent="center" alignItems="center" p={3}>
+      Weee
+    </Layout>
   );
 }
 
